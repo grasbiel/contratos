@@ -40,5 +40,6 @@ public class ContratoServico extends Contrato{
     public BigDecimal getValorMensal() {return valorMensal;}
     public boolean isRenovacaoAutomatica() {return renovacaoAutomatica;}
 
+    public void setDataTermino(LocalDate dataTermino) {this.dataTermino = dataTermino;}
 
 }

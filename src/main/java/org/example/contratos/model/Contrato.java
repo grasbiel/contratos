@@ -18,7 +18,7 @@ public abstract class Contrato {
 
     public Contrato () {}
 
-    public Contrato(String numeroContrato, LocalDate dataInicio, boolean ativo){
+    public Contrato(String numeroContrato, LocalDate dataInicio){
         this.numeroContrato = numeroContrato;
         this.dataInicio = dataInicio;
         this.ativo = true;
